@@ -22,5 +22,5 @@ then
 fi
 
 mkdir build && cd build
-cmake ../
+cmake -DOpenCV_DIR=/usr/share/OpenCV/ ../
 make
